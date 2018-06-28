@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("AutoMapper")]
+[assembly: AssemblyTitle("Reflection")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("AutoMapper")]
+[assembly: AssemblyProduct("Reflection")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("2ab4c9aa-8876-4b2a-817a-af12e054bc9a")]
+[assembly: Guid("bd46df7c-e691-4f04-ad4f-9d3ea065da20")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
