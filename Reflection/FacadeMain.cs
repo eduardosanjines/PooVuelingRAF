@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace Reflection
 {
-    public class Class1
+    public class FacadeMain
     {
         private int Documento;
         private String Dni;
         private String Apellido;
 
-
-
-        DateTime dateTime = (DateTime)Activator.CreateInstance(typeof(DateTime));
-
-
+        Facade facade = new Facade();
+            
+   
     }
 }
