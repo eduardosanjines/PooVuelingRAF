@@ -7,36 +7,23 @@ using System.Threading.Tasks;
 
 namespace ClassExample
 {
-    public class AutoMapper
+    class AutoMapperMain
     {
-       
-        public AutoMapper()
-        {
-
+        public static void Main() {
             Mapper.Initialize(cfg => cfg.CreateMap<AutorModel, AutorDTO>());
 
             var config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<AutorModel, AutorDTO>();
-             
+
             });
 
             IMapper iMapper = config.CreateMapper();
 
-            var source = new AutorModel();
+            var source = new AutorModel { Id = 1234, Nombre = "Fran", Apellido = "Perez" };
 
             var destination = iMapper.Map<AutorModel, AutorDTO>(source);
 
- 
-
+            Console.WriteLine(destination.GetType());
         }
-
-        
-
     }
-      
-        
-
-  
-
-   
 }

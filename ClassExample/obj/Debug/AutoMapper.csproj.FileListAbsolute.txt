@@ -1,0 +1,12 @@
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\bin\Debug\ClassExample.dll
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\bin\Debug\ClassExample.pdb
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\bin\Debug\AutoMapper.dll
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\bin\Debug\System.ValueTuple.dll
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\bin\Debug\AutoMapper.pdb
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\bin\Debug\AutoMapper.xml
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\bin\Debug\System.ValueTuple.xml
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\obj\Debug\AutoMapper.csprojAssemblyReference.cache
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\obj\Debug\AutoMapper.csproj.CoreCompileInputs.cache
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\obj\Debug\AutoMapper.csproj.CopyComplete
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\obj\Debug\ClassExample.dll
+C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\obj\Debug\ClassExample.pdb

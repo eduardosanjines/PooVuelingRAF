@@ -1,4 +1,6 @@
-﻿namespace ClassExample
+﻿using System;
+
+namespace ClassExample
 {
     internal class AutorModel
     {

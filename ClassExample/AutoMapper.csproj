@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutoMapper.cs" />
+    <Compile Include="AutoMapperMain.cs" />
     <Compile Include="AutorDTO.cs" />
     <Compile Include="AutorModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
