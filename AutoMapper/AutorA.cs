@@ -2,7 +2,7 @@
 
 namespace ClassExample
 {
-    internal class AutorModel
+    public class AutorA
     {
 
         public int Id { get; set; }

@@ -1,2 +1,0 @@
-C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\obj\Debug\ClassExample.csprojAssemblyReference.cache
-C:\Users\ETUMAYLLE\source\repos\ClassExample\ClassExample\obj\Debug\ClassExample.csproj.CoreCompileInputs.cache

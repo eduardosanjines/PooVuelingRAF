@@ -1,6 +1,6 @@
 ﻿namespace ClassExample
 {
-    internal class AutorDTO
+    public class AutorB
     {
 
         public int Id
