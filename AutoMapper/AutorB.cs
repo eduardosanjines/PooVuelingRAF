@@ -3,26 +3,11 @@
     public class AutorB
     {
 
-        public int Id
+        public int Id {get; set;}
 
-        {
+        public string Nombre{get; set;}
 
-            get; set;
-
-        }
-
-        public string Nombre
-
-        {
-
-            get; set;
-
-        }
-
-        public string Apellido {
-            get; set;
-
-        }
+        public string Apellido { get; set; }
 
         public string Ciudad { get; set; }
 

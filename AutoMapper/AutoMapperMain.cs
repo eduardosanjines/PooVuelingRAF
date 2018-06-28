@@ -17,7 +17,7 @@ namespace AutoMapper
 
             IMapper iMapper = config.CreateMapper();
 
-            var origen = new AutorA { Id = 1234, Nombre = "Fran", Apellido = "Perez" };
+            var origen = new AutorA { Id = 1234, Nombre = "Fran", Apellido = "Perez"};
 
             var destino = iMapper.Map<AutorA, AutorB>(origen);
 
