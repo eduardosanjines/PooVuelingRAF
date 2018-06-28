@@ -6,3 +6,9 @@ C:\Users\ETUMAYLLE\source\repos\ClassExample\Reflection\obj\Debug\Reflection.csp
 C:\Users\ETUMAYLLE\source\repos\ClassExample\Reflection\obj\Debug\Reflection.csproj.CoreCompileInputs.cache
 C:\Users\ETUMAYLLE\source\repos\ClassExample\Reflection\obj\Debug\ConsoleApp1.exe
 C:\Users\ETUMAYLLE\source\repos\ClassExample\Reflection\obj\Debug\ConsoleApp1.pdb
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\bin\Debug\Reflection.exe.config
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\bin\Debug\Reflection.exe
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\bin\Debug\Reflection.pdb
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.csproj.CoreCompileInputs.cache
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.exe
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.pdb
