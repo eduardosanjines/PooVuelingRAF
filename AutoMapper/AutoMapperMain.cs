@@ -12,17 +12,17 @@ namespace AutoMapper
         static void Main(string[] args)
         {
 
-            // Mapper.Initialize(cfg => cfg.CreateMap<AutorA, AutorB>());
             var config = new MapperConfiguration(cfg => cfg.CreateMap<AutorA, AutorB>());
+            
 
             IMapper iMapper = config.CreateMapper();
 
             var origen = new AutorA { Id = 1234, Nombre = "Fran", Apellido = "Perez"};
-
             var destino = iMapper.Map<AutorA, AutorB>(origen);
 
             Console.WriteLine(destino.GetType());
-            Console.WriteLine("Nombre de autor: "+destino.Nombre+"\nApellido: "+destino.Apellido + "\nCiudad: "+ destino.Ciudad);
+            Console.WriteLine("\n---Origen--- "+"\nNombre de autor: "+origen.Nombre+"\nApellido: "+origen.Apellido);
+            Console.WriteLine("\n---Destino--- "+"\nNombre de autor: " + destino.Nombre + "\nApellido: " + destino.Apellido);
             Console.ReadLine();
 
         }
