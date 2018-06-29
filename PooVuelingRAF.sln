@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper", "AutoMapper\AutoMapper.csproj", "{90AC2700-44B2-4827-9F90-ED41FA4FBD2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{50FAA8B9-50A9-4D89-8786-5D7DFCDE7A5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{90AC2700-44B2-4827-9F90-ED41FA4FBD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90AC2700-44B2-4827-9F90-ED41FA4FBD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90AC2700-44B2-4827-9F90-ED41FA4FBD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50FAA8B9-50A9-4D89-8786-5D7DFCDE7A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FAA8B9-50A9-4D89-8786-5D7DFCDE7A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FAA8B9-50A9-4D89-8786-5D7DFCDE7A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FAA8B9-50A9-4D89-8786-5D7DFCDE7A5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
