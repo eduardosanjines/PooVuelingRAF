@@ -10,8 +10,6 @@ namespace Facade
     {
         static void Main(string[] args)
         {
-
-
             // Facade
 
             Hipoteca hipoteca = new Hipoteca();
@@ -22,7 +20,7 @@ namespace Facade
             bool eligible = hipoteca.IsEligible(cliente, 125000);
 
             Console.WriteLine("\n" + cliente.Name +
-                " ha sido: " + (eligible ? "Aprobado" : "Rechazado"));
+                " Ha sido: " + (eligible ? "Aprobado" : "Rechazado"));
 
             // Wait for user
 

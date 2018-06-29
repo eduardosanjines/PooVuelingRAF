@@ -11,7 +11,7 @@ namespace Facade
 
         public bool TieneSuficientesAhorros(Cliente c, int amount){
 
-            Console.WriteLine("Comprobando a:" + c.Name);
+            Console.WriteLine("Comprobando a: " + c.Name);
             return true;
         }
         
