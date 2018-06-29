@@ -12,3 +12,4 @@ C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\bin\Debug\Reflection.pd
 C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.csproj.CoreCompileInputs.cache
 C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.exe
 C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.pdb
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.csprojAssemblyReference.cache

@@ -16,14 +16,21 @@ namespace Reflection
         {
 
             Assembly myAssembly = typeof(ReflectionMain).Assembly;
-
+/*
             XmlTextReader reader = new XmlTextReader("Alumno.xml");
-            
+
+            while (reader.Read()) {
+                Console.WriteLine(reader.Name);    
+
+            }
+            */
             Type alumnoType = myAssembly.GetType("Reflection.Alumno");
 
             object objetoAlumno = Activator.CreateInstance(alumnoType, 1, "Pepe", "Soto", "123456E");
 
             Console.WriteLine(((Alumno)objetoAlumno).Nombre);
+
+            
 
         }
     }

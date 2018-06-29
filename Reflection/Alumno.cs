@@ -25,5 +25,10 @@ namespace Reflection
             this.Dni = Dni;
         }
 
+        public string GetAlumnName()
+        {
+            return this.Nombre;
+        }
+
     }
 }

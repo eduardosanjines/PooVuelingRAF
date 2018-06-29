@@ -22,7 +22,7 @@ namespace AutoMapper
             var destino = iMapper.Map<AutorA, AutorB>(origen);
 
             Console.WriteLine(destino.GetType());
-            Console.WriteLine("Nombre de autor: "+destino.Nombre+" "+destino.Apellido);
+            Console.WriteLine("Nombre de autor: "+destino.Nombre+"\nApellido: "+destino.Apellido + "\nCiudad: "+ destino.Ciudad);
             Console.ReadLine();
 
         }
