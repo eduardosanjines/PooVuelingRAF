@@ -13,3 +13,9 @@ C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.cs
 C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.exe
 C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.pdb
 C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.csprojAssemblyReference.cache
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\obj\Debug\Reflection.csproj.CopyComplete
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\bin\Debug\ReflectionConfiguration.xml
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\ETUMAYLLE\source\repos\PooVuelingRAF\Reflection\bin\Debug\System.Xml.XPath.dll

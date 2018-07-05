@@ -1,5 +1,7 @@
-﻿using Reflection;
+﻿using Newtonsoft.Json;
+using Reflection;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,6 +9,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Xml.Linq;
+using System.Xml.XPath;
+
 
 namespace Reflection
 {
@@ -14,24 +19,54 @@ namespace Reflection
     {
         static void Main(string[] args)
         {
+          //  try
+         //  {
+                Assembly asm = typeof(ReflectionMain).Assembly;
+                XmlDocument doc = new XmlDocument();
+                doc.Load("ReflectionConfiguration.xml");
+                XmlNodeList nodo = doc.GetElementsByTagName("Types");
+                String ns = nodo[0].InnerText;
 
-            Assembly myAssembly = typeof(ReflectionMain).Assembly;
-/*
-            XmlTextReader reader = new XmlTextReader("Alumno.xml");
+                //XML OPCION 2 LINQ
+                XElement root = XElement.Load("ReflectionConfiguration.xml");
+            IEnumerable<XElement> tests =
+            from el in root.Elements()
+            where (string)el.Element("Id") == "34534"
+            select el;
+            string cadena = tests.First().Value;
+            Console.WriteLine(cadena);
 
-            while (reader.Read()) {
-                Console.WriteLine(reader.Name);    
+                Assembly myAssembly = typeof(ReflectionMain).Assembly;
 
-            }
-            */
-            Type alumnoType = myAssembly.GetType("Reflection.Alumno");
+                Type alumnoType = myAssembly.GetType(ns);
 
-            object objetoAlumno = Activator.CreateInstance(alumnoType, 1, "Pepe", "Soto", "123456E");
+                object alumno = Activator.CreateInstance(alumnoType, 234, "Eduardo", "Fernandez");
 
-            Console.WriteLine(((Alumno)objetoAlumno).Nombre);
+                Alumno myAlumno = (Alumno)alumno;
+                Console.WriteLine("Tipo de alumno: " + myAlumno.GetType() +
+                                "\nIdAlumno: " + myAlumno.IdAlumno +
+                                "\nNombre: " + myAlumno.Nombre +
+                                "\nApellido: " + myAlumno.Apellido);
 
-            
+            // Console.WriteLine(((Alumno)obj).);
 
+            //  Type alumnoType = myAssembly.GetType("XML");
+
+            // object objetoAlumno = Activator.CreateInstance(alumnoType, 1, "Pepe", "Soto", "123456E");
+
+            //   Console.WriteLine(((Alumno)objetoAlumno).Nombre);
+
+            /*
+                    }
+                    catch (XPathException pa)
+                    {
+
+                        Console.WriteLine(pa);
+                    }
+                    catch (XmlException xml) {
+                        Console.WriteLine(xml);
+                    }
+             */
         }
     }
-}
+            }
