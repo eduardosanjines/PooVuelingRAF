@@ -9,7 +9,7 @@ namespace Reflection
     class Alumno
     {
      
-        public int IdAlumno { get; set; }
+        public string IdAlumno { get; set; }
         public string Nombre { get; set; }
 
         public string Apellido { get; set; }
@@ -18,7 +18,7 @@ namespace Reflection
 
         public Alumno() { }
 
-        public Alumno(int IdAlumno, string Nombre, string Apellido, string Dni) {
+        public Alumno(string IdAlumno, string Nombre, string Apellido, string Dni) {
             this.IdAlumno = IdAlumno;
             this.Nombre = Nombre;
             this.Apellido = Apellido;
